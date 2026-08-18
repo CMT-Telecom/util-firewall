@@ -1,0 +1,20 @@
+$TTL 2h
+@ IN SOA localhost. root.localhost. (
+    2026081701 ; Serial (AUMENTE ESSE NUMERO SEMPRE QUE ATUALIZAR A LISTA)
+    2h         ; Refresh
+    15m        ; Retry
+    30d        ; Expire
+    2h         ; Minimum TTL
+)
+  IN NS  localhost.
+
+; --- LISTA DE BLOQUEIOS ABAIXO ---
+
+; Bloqueia o dominio exato
+site-malicioso.com.br IN CNAME .
+
+; Bloqueia o dominio e todos os subdominios (wildcard)
+*.site-malicioso.com.br IN CNAME .
+
+bet-nao-autorizada.com IN CNAME .
+*.bet-nao-autorizada.com IN CNAME .
