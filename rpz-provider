@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026081701 ; Serial (AUMENTE ESSE NUMERO SEMPRE QUE ATUALIZAR A LISTA)
+    2026081703 ; Serial (AUMENTE ESSE NUMERO SEMPRE QUE ATUALIZAR A LISTA)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -8,13 +8,157 @@ $TTL 2h
 )
   IN NS  localhost.
 
-; --- LISTA DE BLOQUEIOS ABAIXO ---
+; --- LISTA DE BLOQUEIOS DO PROVEDOR ---
 
-; Bloqueia o dominio exato
-site-malicioso.com.br IN CNAME .
+; 1. Dominios importados do MikroTik/VyOS:
 
-; Bloqueia o dominio e todos os subdominios (wildcard)
-*.site-malicioso.com.br IN CNAME .
+whitebluerights.com IN CNAME .
+*.whitebluerights.com IN CNAME .
 
-bet-nao-autorizada.com IN CNAME .
-*.bet-nao-autorizada.com IN CNAME .
+cxo09u3s.okjds8z.com IN CNAME .
+*.cxo09u3s.okjds8z.com IN CNAME .
+
+ntp.sjtu.edu.cn IN CNAME .
+*.ntp.sjtu.edu.cn IN CNAME .
+
+cn.ntp.org.cn IN CNAME .
+*.cn.ntp.org.cn IN CNAME .
+
+api.eye4.cn IN CNAME .
+*.api.eye4.cn IN CNAME .
+
+sa-ams.jftechws.com IN CNAME .
+*.sa-ams.jftechws.com IN CNAME .
+
+blnc.traffmonetizer.com IN CNAME .
+*.blnc.traffmonetizer.com IN CNAME .
+
+99paxsa.onelink.me IN CNAME .
+*.99paxsa.onelink.me IN CNAME .
+
+essencedrive.su IN CNAME .
+*.essencedrive.su IN CNAME .
+
+devaccess-br.easy4ipcloud.com IN CNAME .
+*.devaccess-br.easy4ipcloud.com IN CNAME .
+
+impression.appsflyer.com IN CNAME .
+*.impression.appsflyer.com IN CNAME .
+
+ngcash.sng.link IN CNAME .
+*.ngcash.sng.link IN CNAME .
+
+proxy11.idtbrasilhosted.com IN CNAME .
+*.proxy11.idtbrasilhosted.com IN CNAME .
+
+socket-prod.earn.fm IN CNAME .
+*.socket-prod.earn.fm IN CNAME .
+
+mail.twc.com IN CNAME .
+*.mail.twc.com IN CNAME .
+
+socket-prod.earnfm.fo IN CNAME .
+*.socket-prod.earnfm.fo IN CNAME .
+
+socket-backup.earn.fm IN CNAME .
+*.socket-backup.earn.fm IN CNAME .
+
+socket-backup.earnfm.fo IN CNAME .
+*.socket-backup.earnfm.fo IN CNAME .
+
+w6s.ru IN CNAME .
+*.w6s.ru IN CNAME .
+
+rolledright.su IN CNAME .
+*.rolledright.su IN CNAME .
+
+xn----8sbkrdkflhbom0gg8c.xn--p1ai IN CNAME .
+*.xn----8sbkrdkflhbom0gg8c.xn--p1ai IN CNAME .
+
+contabradesco.onelink.me IN CNAME .
+*.contabradesco.onelink.me IN CNAME .
+
+ifoodbr.onelink.me IN CNAME .
+*.ifoodbr.onelink.me IN CNAME .
+
+jaguar-distributor.syslogcollector.com IN CNAME .
+*.jaguar-distributor.syslogcollector.com IN CNAME .
+
+imsowiwiwiwiwi.com IN CNAME .
+*.imsowiwiwiwiwi.com IN CNAME .
+
+blockstream.info IN CNAME .
+*.blockstream.info IN CNAME .
+
+s23sdf56.45lc9mx79ab.com IN CNAME .
+*.s23sdf56.45lc9mx79ab.com IN CNAME .
+
+uh9p.jc724pmnty46x4xk.eu.cc IN CNAME .
+*.uh9p.jc724pmnty46x4xk.eu.cc IN CNAME .
+
+aveno.mef4bot7r2gw3avod.top IN CNAME .
+*.aveno.mef4bot7r2gw3avod.top IN CNAME .
+
+gtxvdqvuweqs.com IN CNAME .
+*.gtxvdqvuweqs.com IN CNAME .
+
+sdkconnecter.com IN CNAME .
+*.sdkconnecter.com IN CNAME .
+
+sdkconnect121.st IN CNAME .
+*.sdkconnect121.st IN CNAME .
+
+launcher.devspts.site IN CNAME .
+*.launcher.devspts.site IN CNAME .
+
+meta365.frostbytesize.com IN CNAME .
+*.meta365.frostbytesize.com IN CNAME .
+
+yoogle.com IN CNAME .
+*.yoogle.com IN CNAME .
+
+lacolhost.com IN CNAME .
+*.lacolhost.com IN CNAME .
+
+img11.fr-trading.com IN CNAME .
+*.img11.fr-trading.com IN CNAME .
+
+s.alicdn.com IN CNAME .
+*.s.alicdn.com IN CNAME .
+
+127.0.0.1.nip.io IN CNAME .
+*.127.0.0.1.nip.io IN CNAME .
+
+bb001.jaguar-distributor.syslogcollector.com IN CNAME .
+*.bb001.jaguar-distributor.syslogcollector.com IN CNAME .
+
+xm.maitian.cn IN CNAME .
+*.xm.maitian.cn IN CNAME .
+
+impressions.onelink.me IN CNAME .
+*.impressions.onelink.me IN CNAME .
+
+poster.checkponit.com IN CNAME .
+*.poster.checkponit.com IN CNAME .
+
+support.fortineat.com IN CNAME .
+*.support.fortineat.com IN CNAME .
+
+support.vmphere.com IN CNAME .
+*.support.vmphere.com IN CNAME .
+
+update.hobiter.com IN CNAME .
+*.update.hobiter.com IN CNAME .
+
+wx.qlogo.cn IN CNAME .
+*.wx.qlogo.cn IN CNAME .
+
+; --- 2. BLOQUEIOS EXTRAS ZEEK ---
+
+; Bloqueio raiz: derruba todos os subdominios (up-qos, playback-sa, vp-*, vc-*, etc)
+cloudlinks.cn IN CNAME .
+*.cloudlinks.cn IN CNAME .
+
+; Google China (conforme log Zeek)
+google.cn IN CNAME .
+*.google.cn IN CNAME .
