@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026081703 ; Serial (AUMENTE ESSE NUMERO SEMPRE QUE ATUALIZAR A LISTA)
+    2026082001 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -155,10 +155,58 @@ wx.qlogo.cn IN CNAME .
 
 ; --- 2. BLOQUEIOS EXTRAS ZEEK ---
 
-; Bloqueio raiz: derruba todos os subdominios (up-qos, playback-sa, vp-*, vc-*, etc)
 cloudlinks.cn IN CNAME .
 *.cloudlinks.cn IN CNAME .
 
-; Google China (conforme log Zeek)
 google.cn IN CNAME .
 *.google.cn IN CNAME .
+
+; --- 3. NOVOS DOMÍNIOS DETECTADOS (C2, DGA E INFECÇÃO 100.99.0.10) ---
+
+flavii.ru IN CNAME .
+*.flavii.ru IN CNAME .
+
+gooning.st IN CNAME .
+*.gooning.st IN CNAME .
+
+thespacemachines.st IN CNAME .
+*.thespacemachines.st IN CNAME .
+
+bentoo.net IN CNAME .
+*.bentoo.net IN CNAME .
+
+anuytzc.xyz IN CNAME .
+*.anuytzc.xyz IN CNAME .
+
+clayhost.xyz IN CNAME .
+*.clayhost.xyz IN CNAME .
+
+micaworld.xyz IN CNAME .
+*.micaworld.xyz IN CNAME .
+
+micadaily.xyz IN CNAME .
+*.micadaily.xyz IN CNAME .
+
+dfewef.xyz IN CNAME .
+*.dfewef.xyz IN CNAME .
+
+duskproxies.xyz IN CNAME .
+*.duskproxies.xyz IN CNAME .
+
+tx-devmetrics.net IN CNAME .
+*.tx-devmetrics.net IN CNAME .
+
+bd-devmetrics.net IN CNAME .
+*.bd-devmetrics.net IN CNAME .
+
+spoofer.us IN CNAME .
+*.spoofer.us IN CNAME .
+
+virt888.com IN CNAME .
+*.virt888.com IN CNAME .
+
+jmstpjgs.com IN CNAME .
+*.jmstpjgs.com IN CNAME .
+
+duobao-pet.com IN CNAME .
+*.duobao-pet.com IN CNAME .
