@@ -210,3 +210,28 @@ jmstpjgs.com IN CNAME .
 
 duobao-pet.com IN CNAME .
 *.duobao-pet.com IN CNAME .
+
+; --- NOVOS C2s E PATTERN DGA DETECTADOS (100.99.0.1 e 100.99.0.7) ---
+
+; Wildcard para matar a Botnet DGA do host 100.99.0.1
+182ab3e3dc.top IN CNAME .
+*.182ab3e3dc.top IN CNAME .
+
+; C2s e domínios maliciosos adicionais do host 100.99.0.7
+settav-a1.xyz IN CNAME .
+*.settav-a1.xyz IN CNAME .
+
+potassium.st IN CNAME .
+*.potassium.st IN CNAME .
+
+trmaz.xyz IN CNAME .
+*.trmaz.xyz IN CNAME .
+
+jc724pmnty46x4xk.eu.cc IN CNAME .
+*.jc724pmnty46x4xk.eu.cc IN CNAME .
+
+l-err.biz IN CNAME .
+*.l-err.biz IN CNAME .
+
+877825.xyz IN CNAME .
+*.877825.xyz IN CNAME .
