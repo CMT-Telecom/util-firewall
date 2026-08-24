@@ -250,3 +250,12 @@ flykatyusha.net IN CNAME .
 
 szbboys.com IN CNAME .
 *.szbboys.com IN CNAME .
+
+
+; --- C2 DETECTADO HOST 100.99.0.8 ---
+gooning.st IN CNAME .
+*.gooning.st IN CNAME .
+
+abcbr.store IN CNAME .
+*.abcbr.store IN CNAME .
+
