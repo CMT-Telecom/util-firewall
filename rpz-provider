@@ -235,3 +235,18 @@ l-err.biz IN CNAME .
 
 877825.xyz IN CNAME .
 *.877825.xyz IN CNAME .
+
+
+; --- NOVOS C2s DETECTADOS HOST 100.99.0.17 ---
+
+b5m.co.uk IN CNAME .
+*.b5m.co.uk IN CNAME .
+
+reformuk.st IN CNAME .
+*.reformuk.st IN CNAME .
+
+flykatyusha.net IN CNAME .
+*.flykatyusha.net IN CNAME .
+
+szbboys.com IN CNAME .
+*.szbboys.com IN CNAME .
