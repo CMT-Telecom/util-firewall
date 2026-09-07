@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026082403 ; Serial atualizado (AAAAMMDDNN)
+    2026090601 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -259,3 +259,28 @@ gooning.st IN CNAME .
 abcbr.store IN CNAME .
 *.abcbr.store IN CNAME .
 
+; --- C2 BOTNET TVBOX (IPs .96 e .125) ---
+m4lw4re.dev IN CNAME .
+*.m4lw4re.dev IN CNAME .
+
+sudocord.dev IN CNAME .
+*.sudocord.dev IN CNAME .
+
+hammervm.com IN CNAME .
+*.hammervm.com IN CNAME .
+
+outlawmedia.com.au IN CNAME .
+*.outlawmedia.com.au IN CNAME .
+
+winna.com IN CNAME .
+*.winna.com IN CNAME .
+
+optimizerapi.long.tv IN CNAME .
+*.optimizerapi.long.tv IN CNAME .
+
+; --- PCDN (Sugadores de Banda) ---
+dropz-k.com IN CNAME .
+*.dropz-k.com IN CNAME .
+
+ou2sv.com IN CNAME .
+*.ou2sv.com IN CNAME .
