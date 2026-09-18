@@ -1,12 +1,12 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026090601 ; Serial atualizado (AAAAMMDDNN)
+    2026091801 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
     2h         ; Minimum TTL
 )
-  IN NS  localhost.
+    IN NS localhost.
 
 ; --- LISTA DE BLOQUEIOS DO PROVEDOR ---
 
@@ -93,8 +93,6 @@ blockstream.info IN CNAME .
 s23sdf56.45lc9mx79ab.com IN CNAME .
 *.s23sdf56.45lc9mx79ab.com IN CNAME .
 
-uh9p.jc724pmnty46x4xk.eu.cc IN CNAME .
-*.uh9p.jc724pmnty46x4xk.eu.cc IN CNAME .
 
 aveno.mef4bot7r2gw3avod.top IN CNAME .
 *.aveno.mef4bot7r2gw3avod.top IN CNAME .
@@ -227,8 +225,6 @@ potassium.st IN CNAME .
 trmaz.xyz IN CNAME .
 *.trmaz.xyz IN CNAME .
 
-jc724pmnty46x4xk.eu.cc IN CNAME .
-*.jc724pmnty46x4xk.eu.cc IN CNAME .
 
 l-err.biz IN CNAME .
 *.l-err.biz IN CNAME .
@@ -284,3 +280,67 @@ dropz-k.com IN CNAME .
 
 ou2sv.com IN CNAME .
 *.ou2sv.com IN CNAME .
+
+
+aveno.mef4bot7r2gw3avod.top IN CNAME .
+*.aveno.mef4bot7r2gw3avod.top IN CNAME .
+
+5748asheve.gooning.st IN CNAME .
+*.5748asheve.gooning.st IN CNAME .
+
+5748.reformuk.st IN CNAME .
+*.5748.reformuk.st IN CNAME .
+
+smtp.cope.st IN CNAME .
+*.smtp.cope.st IN CNAME .
+
+mail.cope.st IN CNAME .
+*.mail.cope.st IN CNAME .
+
+docker_container-2.cope.st IN CNAME .
+*.docker_container-2.cope.st IN CNAME .
+
+docker_container-1.cope.st IN CNAME .
+*.docker_container-1.cope.st IN CNAME .
+
+dvrxpert.tiananmensquare1989.su IN CNAME .
+*.dvrxpert.tiananmensquare1989.su IN CNAME .
+
+
+
+
+
+cfd-features.argotunnel.com IN CNAME .
+*.cfd-features.argotunnel.com IN CNAME .
+
+
+
+_grpc_config.swap.lightning.today IN CNAME .
+*._grpc_config.swap.lightning.today IN CNAME .
+
+
+stun-v6.easytier.cn IN CNAME .
+*.stun-v6.easytier.cn IN CNAME .
+
+app.siteperformancetest.net IN CNAME .
+*.app.siteperformancetest.net IN CNAME .
+
+
+stun.easytier.cn IN CNAME .
+*.stun.easytier.cn IN CNAME .
+
+
+
+
+
+
+tracker.trackerfix.com IN CNAME .
+*.tracker.trackerfix.com IN CNAME .
+eu.cc IN CNAME .
+*.eu.cc IN CNAME .
+
+openinstall.com IN CNAME .
+*.openinstall.com IN CNAME .
+
+smaato.net IN CNAME .
+*.smaato.net IN CNAME .
