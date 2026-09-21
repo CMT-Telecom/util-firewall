@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026091801 ; Serial atualizado (AAAAMMDDNN)
+    2026092101 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -8,15 +8,15 @@ $TTL 2h
 )
     IN NS localhost.
 
-; --- LISTA DE BLOQUEIOS DO PROVEDOR ---
-
-; 1. Dominios importados do MikroTik/VyOS:
+; ==============================================================================
+; 1. DOMÍNIOS IMPORTADOS DO MIKROTIK / VYOS
+; ==============================================================================
 
 whitebluerights.com IN CNAME .
 *.whitebluerights.com IN CNAME .
 
-cxo09u3s.okjds8z.com IN CNAME .
-*.cxo09u3s.okjds8z.com IN CNAME .
+okjds8z.com IN CNAME .
+*.okjds8z.com IN CNAME .
 
 ntp.sjtu.edu.cn IN CNAME .
 *.ntp.sjtu.edu.cn IN CNAME .
@@ -27,11 +27,11 @@ cn.ntp.org.cn IN CNAME .
 api.eye4.cn IN CNAME .
 *.api.eye4.cn IN CNAME .
 
-sa-ams.jftechws.com IN CNAME .
-*.sa-ams.jftechws.com IN CNAME .
+jftechws.com IN CNAME .
+*.jftechws.com IN CNAME .
 
-blnc.traffmonetizer.com IN CNAME .
-*.blnc.traffmonetizer.com IN CNAME .
+traffmonetizer.com IN CNAME .
+*.traffmonetizer.com IN CNAME .
 
 99paxsa.onelink.me IN CNAME .
 *.99paxsa.onelink.me IN CNAME .
@@ -39,32 +39,26 @@ blnc.traffmonetizer.com IN CNAME .
 essencedrive.su IN CNAME .
 *.essencedrive.su IN CNAME .
 
-devaccess-br.easy4ipcloud.com IN CNAME .
-*.devaccess-br.easy4ipcloud.com IN CNAME .
+easy4ipcloud.com IN CNAME .
+*.easy4ipcloud.com IN CNAME .
 
-impression.appsflyer.com IN CNAME .
-*.impression.appsflyer.com IN CNAME .
+appsflyer.com IN CNAME .
+*.appsflyer.com IN CNAME .
 
-ngcash.sng.link IN CNAME .
-*.ngcash.sng.link IN CNAME .
+sng.link IN CNAME .
+*.sng.link IN CNAME .
 
-proxy11.idtbrasilhosted.com IN CNAME .
-*.proxy11.idtbrasilhosted.com IN CNAME .
+idtbrasilhosted.com IN CNAME .
+*.idtbrasilhosted.com IN CNAME .
 
-socket-prod.earn.fm IN CNAME .
-*.socket-prod.earn.fm IN CNAME .
+earn.fm IN CNAME .
+*.earn.fm IN CNAME .
 
-mail.twc.com IN CNAME .
-*.mail.twc.com IN CNAME .
+earnfm.fo IN CNAME .
+*.earnfm.fo IN CNAME .
 
-socket-prod.earnfm.fo IN CNAME .
-*.socket-prod.earnfm.fo IN CNAME .
-
-socket-backup.earn.fm IN CNAME .
-*.socket-backup.earn.fm IN CNAME .
-
-socket-backup.earnfm.fo IN CNAME .
-*.socket-backup.earnfm.fo IN CNAME .
+twc.com IN CNAME .
+*.twc.com IN CNAME .
 
 w6s.ru IN CNAME .
 *.w6s.ru IN CNAME .
@@ -81,8 +75,8 @@ contabradesco.onelink.me IN CNAME .
 ifoodbr.onelink.me IN CNAME .
 *.ifoodbr.onelink.me IN CNAME .
 
-jaguar-distributor.syslogcollector.com IN CNAME .
-*.jaguar-distributor.syslogcollector.com IN CNAME .
+syslogcollector.com IN CNAME .
+*.syslogcollector.com IN CNAME .
 
 imsowiwiwiwiwi.com IN CNAME .
 *.imsowiwiwiwiwi.com IN CNAME .
@@ -90,9 +84,8 @@ imsowiwiwiwiwi.com IN CNAME .
 blockstream.info IN CNAME .
 *.blockstream.info IN CNAME .
 
-s23sdf56.45lc9mx79ab.com IN CNAME .
-*.s23sdf56.45lc9mx79ab.com IN CNAME .
-
+45lc9mx79ab.com IN CNAME .
+*.45lc9mx79ab.com IN CNAME .
 
 aveno.mef4bot7r2gw3avod.top IN CNAME .
 *.aveno.mef4bot7r2gw3avod.top IN CNAME .
@@ -109,8 +102,8 @@ sdkconnect121.st IN CNAME .
 launcher.devspts.site IN CNAME .
 *.launcher.devspts.site IN CNAME .
 
-meta365.frostbytesize.com IN CNAME .
-*.meta365.frostbytesize.com IN CNAME .
+frostbytesize.com IN CNAME .
+*.frostbytesize.com IN CNAME .
 
 yoogle.com IN CNAME .
 *.yoogle.com IN CNAME .
@@ -118,8 +111,8 @@ yoogle.com IN CNAME .
 lacolhost.com IN CNAME .
 *.lacolhost.com IN CNAME .
 
-img11.fr-trading.com IN CNAME .
-*.img11.fr-trading.com IN CNAME .
+fr-trading.com IN CNAME .
+*.fr-trading.com IN CNAME .
 
 s.alicdn.com IN CNAME .
 *.s.alicdn.com IN CNAME .
@@ -127,31 +120,30 @@ s.alicdn.com IN CNAME .
 127.0.0.1.nip.io IN CNAME .
 *.127.0.0.1.nip.io IN CNAME .
 
-bb001.jaguar-distributor.syslogcollector.com IN CNAME .
-*.bb001.jaguar-distributor.syslogcollector.com IN CNAME .
-
-xm.maitian.cn IN CNAME .
-*.xm.maitian.cn IN CNAME .
+maitian.cn IN CNAME .
+*.maitian.cn IN CNAME .
 
 impressions.onelink.me IN CNAME .
 *.impressions.onelink.me IN CNAME .
 
-poster.checkponit.com IN CNAME .
-*.poster.checkponit.com IN CNAME .
+checkponit.com IN CNAME .
+*.checkponit.com IN CNAME .
 
-support.fortineat.com IN CNAME .
-*.support.fortineat.com IN CNAME .
+fortineat.com IN CNAME .
+*.fortineat.com IN CNAME .
 
-support.vmphere.com IN CNAME .
-*.support.vmphere.com IN CNAME .
+vmphere.com IN CNAME .
+*.vmphere.com IN CNAME .
 
-update.hobiter.com IN CNAME .
-*.update.hobiter.com IN CNAME .
+hobiter.com IN CNAME .
+*.hobiter.com IN CNAME .
 
 wx.qlogo.cn IN CNAME .
 *.wx.qlogo.cn IN CNAME .
 
-; --- 2. BLOQUEIOS EXTRAS ZEEK ---
+; ==============================================================================
+; 2. BLOQUEIOS EXTRAS ZEEK E PCDN
+; ==============================================================================
 
 cloudlinks.cn IN CNAME .
 *.cloudlinks.cn IN CNAME .
@@ -159,7 +151,15 @@ cloudlinks.cn IN CNAME .
 google.cn IN CNAME .
 *.google.cn IN CNAME .
 
-; --- 3. NOVOS DOMÍNIOS DETECTADOS (C2, DGA E INFECÇÃO 100.99.0.10) ---
+dropz-k.com IN CNAME .
+*.dropz-k.com IN CNAME .
+
+ou2sv.com IN CNAME .
+*.ou2sv.com IN CNAME .
+
+; ==============================================================================
+; 3. C2, DGA E INFECÇÕES HISTÓRICAS (100.99.0.1, .7, .8, .10, .17, .96, .125)
+; ==============================================================================
 
 flavii.ru IN CNAME .
 *.flavii.ru IN CNAME .
@@ -209,13 +209,9 @@ jmstpjgs.com IN CNAME .
 duobao-pet.com IN CNAME .
 *.duobao-pet.com IN CNAME .
 
-; --- NOVOS C2s E PATTERN DGA DETECTADOS (100.99.0.1 e 100.99.0.7) ---
-
-; Wildcard para matar a Botnet DGA do host 100.99.0.1
 182ab3e3dc.top IN CNAME .
 *.182ab3e3dc.top IN CNAME .
 
-; C2s e domínios maliciosos adicionais do host 100.99.0.7
 settav-a1.xyz IN CNAME .
 *.settav-a1.xyz IN CNAME .
 
@@ -225,21 +221,14 @@ potassium.st IN CNAME .
 trmaz.xyz IN CNAME .
 *.trmaz.xyz IN CNAME .
 
-
 l-err.biz IN CNAME .
 *.l-err.biz IN CNAME .
 
 877825.xyz IN CNAME .
 *.877825.xyz IN CNAME .
 
-
-; --- NOVOS C2s DETECTADOS HOST 100.99.0.17 ---
-
 b5m.co.uk IN CNAME .
 *.b5m.co.uk IN CNAME .
-
-reformuk.st IN CNAME .
-*.reformuk.st IN CNAME .
 
 flykatyusha.net IN CNAME .
 *.flykatyusha.net IN CNAME .
@@ -247,15 +236,9 @@ flykatyusha.net IN CNAME .
 szbboys.com IN CNAME .
 *.szbboys.com IN CNAME .
 
-
-; --- C2 DETECTADO HOST 100.99.0.8 ---
-gooning.st IN CNAME .
-*.gooning.st IN CNAME .
-
 abcbr.store IN CNAME .
 *.abcbr.store IN CNAME .
 
-; --- C2 BOTNET TVBOX (IPs .96 e .125) ---
 m4lw4re.dev IN CNAME .
 *.m4lw4re.dev IN CNAME .
 
@@ -274,68 +257,27 @@ winna.com IN CNAME .
 optimizerapi.long.tv IN CNAME .
 *.optimizerapi.long.tv IN CNAME .
 
-; --- PCDN (Sugadores de Banda) ---
-dropz-k.com IN CNAME .
-*.dropz-k.com IN CNAME .
+cope.st IN CNAME .
+*.cope.st IN CNAME .
 
-ou2sv.com IN CNAME .
-*.ou2sv.com IN CNAME .
+tiananmensquare1989.su IN CNAME .
+*.tiananmensquare1989.su IN CNAME .
 
+argotunnel.com IN CNAME .
+*.argotunnel.com IN CNAME .
 
-aveno.mef4bot7r2gw3avod.top IN CNAME .
-*.aveno.mef4bot7r2gw3avod.top IN CNAME .
-
-5748asheve.gooning.st IN CNAME .
-*.5748asheve.gooning.st IN CNAME .
-
-5748.reformuk.st IN CNAME .
-*.5748.reformuk.st IN CNAME .
-
-smtp.cope.st IN CNAME .
-*.smtp.cope.st IN CNAME .
-
-mail.cope.st IN CNAME .
-*.mail.cope.st IN CNAME .
-
-docker_container-2.cope.st IN CNAME .
-*.docker_container-2.cope.st IN CNAME .
-
-docker_container-1.cope.st IN CNAME .
-*.docker_container-1.cope.st IN CNAME .
-
-dvrxpert.tiananmensquare1989.su IN CNAME .
-*.dvrxpert.tiananmensquare1989.su IN CNAME .
-
-
-
-
-
-cfd-features.argotunnel.com IN CNAME .
-*.cfd-features.argotunnel.com IN CNAME .
-
-
-
-_grpc_config.swap.lightning.today IN CNAME .
+swap.lightning.today IN CNAME .
 *._grpc_config.swap.lightning.today IN CNAME .
 
+easytier.cn IN CNAME .
+*.easytier.cn IN CNAME .
 
-stun-v6.easytier.cn IN CNAME .
-*.stun-v6.easytier.cn IN CNAME .
+siteperformancetest.net IN CNAME .
+*.siteperformancetest.net IN CNAME .
 
-app.siteperformancetest.net IN CNAME .
-*.app.siteperformancetest.net IN CNAME .
+trackerfix.com IN CNAME .
+*.trackerfix.com IN CNAME .
 
-
-stun.easytier.cn IN CNAME .
-*.stun.easytier.cn IN CNAME .
-
-
-
-
-
-
-tracker.trackerfix.com IN CNAME .
-*.tracker.trackerfix.com IN CNAME .
 eu.cc IN CNAME .
 *.eu.cc IN CNAME .
 
@@ -344,3 +286,58 @@ openinstall.com IN CNAME .
 
 smaato.net IN CNAME .
 *.smaato.net IN CNAME .
+
+; ==============================================================================
+; 4. NOVOS C2s IDENTIFICADOS DO IP 100.99.0.109 (CRYPTO MINING / PROXY)
+; ==============================================================================
+
+4949xxc.net IN CNAME .
+*.4949xxc.net IN CNAME .
+
+4949xxc.me IN CNAME .
+*.4949xxc.me IN CNAME .
+
+ycyd123.com IN CNAME .
+*.ycyd123.com IN CNAME .
+
+a-b-c-8.com IN CNAME .
+*.a-b-c-8.com IN CNAME .
+
+a-b-3-d.com IN CNAME .
+*.a-b-3-d.com IN CNAME .
+
+xyzproxy.cloud IN CNAME .
+*.xyzproxy.cloud IN CNAME .
+
+itbakit.com IN CNAME .
+*.itbakit.com IN CNAME .
+
+ckker.xyz IN CNAME .
+*.ckker.xyz IN CNAME .
+
+guobiaovip.com IN CNAME .
+*.guobiaovip.com IN CNAME .
+
+yxotakeji.com IN CNAME .
+*.yxotakeji.com IN CNAME .
+
+kkoper.cc IN CNAME .
+*.kkoper.cc IN CNAME .
+
+deobfuscator.net IN CNAME .
+*.deobfuscator.net IN CNAME .
+
+q-4-g-r.com IN CNAME .
+*.q-4-g-r.com IN CNAME .
+
+f-1-g-h.com IN CNAME .
+*.f-1-g-h.com IN CNAME .
+
+twopeoplewalking.com IN CNAME .
+*.twopeoplewalking.com IN CNAME .
+
+crest.com.pl IN CNAME .
+*.crest.com.pl IN CNAME .
+
+reformuk.st IN CNAME .
+*.reformuk.st IN CNAME .
