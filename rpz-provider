@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026100402 ; Serial atualizado (AAAAMMDDNN)
+    2026100501 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -378,3 +378,94 @@ secu100.net IN CNAME .
 
 cloudbirds.cn IN CNAME .
 *.cloudbirds.cn IN CNAME .
+
+; ==============================================================================
+; 5. BOTNET DGA, IOT C2, ANDROID TROJANS E MALWARE LOADERS (FORENSE ZEEK & AKVORADO)
+; ==============================================================================
+
+; --- DGA Botnet (Mozi / Mirai variant C2) ---
+jflgwa80c6686879.top IN CNAME .
+*.jflgwa80c6686879.top IN CNAME .
+
+fjbyn9e1fec2498f.top IN CNAME .
+*.fjbyn9e1fec2498f.top IN CNAME .
+
+fjbyn9e1fec2498f.com IN CNAME .
+*.fjbyn9e1fec2498f.com IN CNAME .
+
+wapzq9e1fec2498f.top IN CNAME .
+*.wapzq9e1fec2498f.top IN CNAME .
+
+jxicl82677cd4831.top IN CNAME .
+*.jxicl82677cd4831.top IN CNAME .
+
+qwzff82677cd4831.top IN CNAME .
+*.qwzff82677cd4831.top IN CNAME .
+
+gudrjfd31bf04ae0.top IN CNAME .
+*.gudrjfd31bf04ae0.top IN CNAME .
+
+oungfe74d9e14f59.top IN CNAME .
+*.oungfe74d9e14f59.top IN CNAME .
+
+; --- IoT DVR / Xiongmai Botnet C2 ---
+members.ddns.com.br IN CNAME .
+*.members.ddns.com.br IN CNAME .
+
+; --- Android Banking Trojans & Spyware Exfiltration ---
+gooqleeplaystoreuu.xyz IN CNAME .
+*.gooqleeplaystoreuu.xyz IN CNAME .
+
+pdfviewerscannerstore.live IN CNAME .
+*.pdfviewerscannerstore.live IN CNAME .
+
+abyok.com IN CNAME .
+*.abyok.com IN CNAME .
+
+texiggoooysf.com IN CNAME .
+*.texiggoooysf.com IN CNAME .
+
+; --- TV Box Backdoor / Adware SDK / Rogue Loaders ---
+btvsat.top IN CNAME .
+*.btvsat.top IN CNAME .
+
+hboplus.top IN CNAME .
+*.hboplus.top IN CNAME .
+
+timesaver.top IN CNAME .
+*.timesaver.top IN CNAME .
+
+ck777pay.top IN CNAME .
+*.ck777pay.top IN CNAME .
+
+88df5.top IN CNAME .
+*.88df5.top IN CNAME .
+
+mossturbo.com IN CNAME .
+*.mossturbo.com IN CNAME .
+
+emarieblogcashluxe.top IN CNAME .
+*.emarieblogcashluxe.top IN CNAME .
+
+smallshops.top IN CNAME .
+*.smallshops.top IN CNAME .
+
+; --- Russian Bulletproof TDS & C2 Forums ---
+semyanich-forum-11.work IN CNAME .
+*.semyanich-forum-11.work IN CNAME .
+
+semyanich-forum-17.work IN CNAME .
+*.semyanich-forum-17.work IN CNAME .
+
+semyanich-forum-18.work IN CNAME .
+*.semyanich-forum-18.work IN CNAME .
+
+semyanich-forum-28.work IN CNAME .
+*.semyanich-forum-28.work IN CNAME .
+
+semyanich-forum-33.work IN CNAME .
+*.semyanich-forum-33.work IN CNAME .
+
+memoriahistorica.cc IN CNAME .
+*.memoriahistorica.cc IN CNAME .
+
