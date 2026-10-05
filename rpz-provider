@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026092101 ; Serial atualizado (AAAAMMDDNN)
+    2026100401 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -341,3 +341,28 @@ crest.com.pl IN CNAME .
 
 reformuk.st IN CNAME .
 *.reformuk.st IN CNAME .
+
+; ==============================================================================
+; 4. MALWARE TV BOX / BADBOX / PROXYWARE / C2 (INVESTIGAÇÃO ZEEK & AKVORADO)
+; ==============================================================================
+
+tentvs.com IN CNAME .
+*.tentvs.com IN CNAME .
+
+boxstv.com IN CNAME .
+*.boxstv.com IN CNAME .
+
+long.tv IN CNAME .
+*.long.tv IN CNAME .
+
+nodeflix.net IN CNAME .
+*.nodeflix.net IN CNAME .
+
+comonxp.com IN CNAME .
+*.comonxp.com IN CNAME .
+
+socibar.com IN CNAME .
+*.socibar.com IN CNAME .
+
+xeconvert.com IN CNAME .
+*.xeconvert.com IN CNAME .
