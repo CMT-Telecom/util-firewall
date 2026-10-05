@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026100401 ; Serial atualizado (AAAAMMDDNN)
+    2026100402 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -366,3 +366,15 @@ socibar.com IN CNAME .
 
 xeconvert.com IN CNAME .
 *.xeconvert.com IN CNAME .
+
+party-proof.de IN CNAME .
+*.party-proof.de IN CNAME .
+
+reachstormdigital.com IN CNAME .
+*.reachstormdigital.com IN CNAME .
+
+secu100.net IN CNAME .
+*.secu100.net IN CNAME .
+
+cloudbirds.cn IN CNAME .
+*.cloudbirds.cn IN CNAME .
