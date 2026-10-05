@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026100501 ; Serial atualizado (AAAAMMDDNN)
+    2026100502 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -469,3 +469,57 @@ semyanich-forum-33.work IN CNAME .
 memoriahistorica.cc IN CNAME .
 *.memoriahistorica.cc IN CNAME .
 
+; ==============================================================================
+; 6. CNAME CLOAKING, FAST-FLUX C2 MASKING E DNS TUNNELING BASE32/HEX
+; ==============================================================================
+
+; --- CNAME Cloaking (Mascaramento em CDN Akamai) ---
+foggymorningmist.com IN CNAME .
+*.foggymorningmist.com IN CNAME .
+
+emptyfieldgrassm.com IN CNAME .
+*.emptyfieldgrassm.com IN CNAME .
+
+uo4g.com IN CNAME .
+*.uo4g.com IN CNAME .
+
+; --- Fast-Flux C2 & Trolling Masking Domains (Pool de Proxies Internacionais) ---
+dnsrecordsarepowerful.com IN CNAME .
+*.dnsrecordsarepowerful.com IN CNAME .
+
+okiloveyoupleasedonttouchme.net IN CNAME .
+*.okiloveyoupleasedonttouchme.net IN CNAME .
+
+iloveuevenifudontlovemeback.is IN CNAME .
+*.iloveuevenifudontlovemeback.is IN CNAME .
+
+iwonderifulovemeaswell.vg IN CNAME .
+*.iwonderifulovemeaswell.vg IN CNAME .
+
+lovefromallareas.at IN CNAME .
+*.lovefromallareas.at IN CNAME .
+
+dontworry.su IN CNAME .
+*.dontworry.su IN CNAME .
+
+plsleavemealone.com IN CNAME .
+*.plsleavemealone.com IN CNAME .
+
+iloveyourweewee.bz IN CNAME .
+*.iloveyourweewee.bz IN CNAME .
+
+ilikecircumcised.com IN CNAME .
+*.ilikecircumcised.com IN CNAME .
+
+iloveusomuch.to IN CNAME .
+*.iloveusomuch.to IN CNAME .
+
+aaronweintraubfromcogent.com IN CNAME .
+*.aaronweintraubfromcogent.com IN CNAME .
+
+aaronweintraubwantstobecyberpolice.com IN CNAME .
+*.aaronweintraubwantstobecyberpolice.com IN CNAME .
+
+; --- DNS Tunneling (Tokens Base32/Hex em Consultas TXT) ---
+jc724pmnty46x4xk.eu.cc IN CNAME .
+*.jc724pmnty46x4xk.eu.cc IN CNAME .
