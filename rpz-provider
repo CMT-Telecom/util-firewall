@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026100502 ; Serial atualizado (AAAAMMDDNN)
+    2026101501 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -523,3 +523,25 @@ aaronweintraubwantstobecyberpolice.com IN CNAME .
 ; --- DNS Tunneling (Tokens Base32/Hex em Consultas TXT) ---
 jc724pmnty46x4xk.eu.cc IN CNAME .
 *.jc724pmnty46x4xk.eu.cc IN CNAME .
+
+; ==============================================================================
+; 7. MALWARE ANDROID TV BOX / ROGUE OTA UPDATERS / DNS TUNNELING C2 (15/10/2026)
+; ==============================================================================
+
+; --- Amediatech Android TV Box Rogue OTA Backdoor / Badbox (534k+ reqs) ---
+amediatech.net IN CNAME .
+*.amediatech.net IN CNAME .
+
+; --- Subdomínios explícitos DNS Tunneling TXT (C2 cope.st) ---
+docker_container-2.cope.st IN CNAME .
+docker_container-1.cope.st IN CNAME .
+mail.cope.st IN CNAME .
+smtp.cope.st IN CNAME .
+
+; --- Phantom C2 Botnet & Universal OTA TV Box Backdoor ---
+phantomc2.cc IN CNAME .
+*.phantomc2.cc IN CNAME .
+
+uota.xyz IN CNAME .
+*.uota.xyz IN CNAME .
+
