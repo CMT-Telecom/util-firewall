@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026101502 ; Serial atualizado (AAAAMMDDNN)
+    2026101801 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -18,23 +18,11 @@ whitebluerights.com IN CNAME .
 okjds8z.com IN CNAME .
 *.okjds8z.com IN CNAME .
 
-ntp.sjtu.edu.cn IN CNAME .
-*.ntp.sjtu.edu.cn IN CNAME .
-
-cn.ntp.org.cn IN CNAME .
-*.cn.ntp.org.cn IN CNAME .
-
-api.eye4.cn IN CNAME .
-*.api.eye4.cn IN CNAME .
-
 jftechws.com IN CNAME .
 *.jftechws.com IN CNAME .
 
 traffmonetizer.com IN CNAME .
 *.traffmonetizer.com IN CNAME .
-
-99paxsa.onelink.me IN CNAME .
-*.99paxsa.onelink.me IN CNAME .
 
 essencedrive.su IN CNAME .
 *.essencedrive.su IN CNAME .
@@ -69,12 +57,6 @@ rolledright.su IN CNAME .
 xn----8sbkrdkflhbom0gg8c.xn--p1ai IN CNAME .
 *.xn----8sbkrdkflhbom0gg8c.xn--p1ai IN CNAME .
 
-contabradesco.onelink.me IN CNAME .
-*.contabradesco.onelink.me IN CNAME .
-
-ifoodbr.onelink.me IN CNAME .
-*.ifoodbr.onelink.me IN CNAME .
-
 syslogcollector.com IN CNAME .
 *.syslogcollector.com IN CNAME .
 
@@ -87,9 +69,6 @@ blockstream.info IN CNAME .
 45lc9mx79ab.com IN CNAME .
 *.45lc9mx79ab.com IN CNAME .
 
-aveno.mef4bot7r2gw3avod.top IN CNAME .
-*.aveno.mef4bot7r2gw3avod.top IN CNAME .
-
 gtxvdqvuweqs.com IN CNAME .
 *.gtxvdqvuweqs.com IN CNAME .
 
@@ -98,9 +77,6 @@ sdkconnecter.com IN CNAME .
 
 sdkconnect121.st IN CNAME .
 *.sdkconnect121.st IN CNAME .
-
-launcher.devspts.site IN CNAME .
-*.launcher.devspts.site IN CNAME .
 
 frostbytesize.com IN CNAME .
 *.frostbytesize.com IN CNAME .
@@ -114,32 +90,8 @@ lacolhost.com IN CNAME .
 fr-trading.com IN CNAME .
 *.fr-trading.com IN CNAME .
 
-s.alicdn.com IN CNAME .
-*.s.alicdn.com IN CNAME .
-
-127.0.0.1.nip.io IN CNAME .
-*.127.0.0.1.nip.io IN CNAME .
-
 maitian.cn IN CNAME .
 *.maitian.cn IN CNAME .
-
-impressions.onelink.me IN CNAME .
-*.impressions.onelink.me IN CNAME .
-
-checkponit.com IN CNAME .
-*.checkponit.com IN CNAME .
-
-fortineat.com IN CNAME .
-*.fortineat.com IN CNAME .
-
-vmphere.com IN CNAME .
-*.vmphere.com IN CNAME .
-
-hobiter.com IN CNAME .
-*.hobiter.com IN CNAME .
-
-wx.qlogo.cn IN CNAME .
-*.wx.qlogo.cn IN CNAME .
 
 ; ==============================================================================
 ; 2. BLOQUEIOS EXTRAS ZEEK E PCDN
@@ -161,9 +113,6 @@ ou2sv.com IN CNAME .
 ; 3. C2, DGA E INFECÇÕES HISTÓRICAS (100.99.0.1, .7, .8, .10, .17, .96, .125)
 ; ==============================================================================
 
-flavii.ru IN CNAME .
-*.flavii.ru IN CNAME .
-
 gooning.st IN CNAME .
 *.gooning.st IN CNAME .
 
@@ -179,17 +128,8 @@ anuytzc.xyz IN CNAME .
 clayhost.xyz IN CNAME .
 *.clayhost.xyz IN CNAME .
 
-micaworld.xyz IN CNAME .
-*.micaworld.xyz IN CNAME .
-
-micadaily.xyz IN CNAME .
-*.micadaily.xyz IN CNAME .
-
 dfewef.xyz IN CNAME .
 *.dfewef.xyz IN CNAME .
-
-duskproxies.xyz IN CNAME .
-*.duskproxies.xyz IN CNAME .
 
 tx-devmetrics.net IN CNAME .
 *.tx-devmetrics.net IN CNAME .
@@ -199,21 +139,6 @@ bd-devmetrics.net IN CNAME .
 
 spoofer.us IN CNAME .
 *.spoofer.us IN CNAME .
-
-virt888.com IN CNAME .
-*.virt888.com IN CNAME .
-
-jmstpjgs.com IN CNAME .
-*.jmstpjgs.com IN CNAME .
-
-duobao-pet.com IN CNAME .
-*.duobao-pet.com IN CNAME .
-
-182ab3e3dc.top IN CNAME .
-*.182ab3e3dc.top IN CNAME .
-
-settav-a1.xyz IN CNAME .
-*.settav-a1.xyz IN CNAME .
 
 potassium.st IN CNAME .
 *.potassium.st IN CNAME .
@@ -239,44 +164,11 @@ szbboys.com IN CNAME .
 abcbr.store IN CNAME .
 *.abcbr.store IN CNAME .
 
-m4lw4re.dev IN CNAME .
-*.m4lw4re.dev IN CNAME .
-
-sudocord.dev IN CNAME .
-*.sudocord.dev IN CNAME .
-
-hammervm.com IN CNAME .
-*.hammervm.com IN CNAME .
-
-outlawmedia.com.au IN CNAME .
-*.outlawmedia.com.au IN CNAME .
-
-winna.com IN CNAME .
-*.winna.com IN CNAME .
-
 optimizerapi.long.tv IN CNAME .
 *.optimizerapi.long.tv IN CNAME .
 
 cope.st IN CNAME .
 *.cope.st IN CNAME .
-
-tiananmensquare1989.su IN CNAME .
-*.tiananmensquare1989.su IN CNAME .
-
-argotunnel.com IN CNAME .
-*.argotunnel.com IN CNAME .
-
-swap.lightning.today IN CNAME .
-*._grpc_config.swap.lightning.today IN CNAME .
-
-easytier.cn IN CNAME .
-*.easytier.cn IN CNAME .
-
-siteperformancetest.net IN CNAME .
-*.siteperformancetest.net IN CNAME .
-
-trackerfix.com IN CNAME .
-*.trackerfix.com IN CNAME .
 
 eu.cc IN CNAME .
 *.eu.cc IN CNAME .
@@ -361,18 +253,6 @@ nodeflix.net IN CNAME .
 comonxp.com IN CNAME .
 *.comonxp.com IN CNAME .
 
-socibar.com IN CNAME .
-*.socibar.com IN CNAME .
-
-xeconvert.com IN CNAME .
-*.xeconvert.com IN CNAME .
-
-party-proof.de IN CNAME .
-*.party-proof.de IN CNAME .
-
-reachstormdigital.com IN CNAME .
-*.reachstormdigital.com IN CNAME .
-
 secu100.net IN CNAME .
 *.secu100.net IN CNAME .
 
@@ -409,9 +289,6 @@ oungfe74d9e14f59.top IN CNAME .
 *.oungfe74d9e14f59.top IN CNAME .
 
 ; --- IoT DVR / Xiongmai Botnet C2 ---
-members.ddns.com.br IN CNAME .
-*.members.ddns.com.br IN CNAME .
-
 ; --- Android Banking Trojans & Spyware Exfiltration ---
 gooqleeplaystoreuu.xyz IN CNAME .
 *.gooqleeplaystoreuu.xyz IN CNAME .
@@ -421,9 +298,6 @@ pdfviewerscannerstore.live IN CNAME .
 
 abyok.com IN CNAME .
 *.abyok.com IN CNAME .
-
-texiggoooysf.com IN CNAME .
-*.texiggoooysf.com IN CNAME .
 
 ; --- TV Box Backdoor / Adware SDK / Rogue Loaders ---
 btvsat.top IN CNAME .
@@ -435,40 +309,13 @@ hboplus.top IN CNAME .
 timesaver.top IN CNAME .
 *.timesaver.top IN CNAME .
 
-ck777pay.top IN CNAME .
-*.ck777pay.top IN CNAME .
-
 88df5.top IN CNAME .
 *.88df5.top IN CNAME .
 
 mossturbo.com IN CNAME .
 *.mossturbo.com IN CNAME .
 
-emarieblogcashluxe.top IN CNAME .
-*.emarieblogcashluxe.top IN CNAME .
-
-smallshops.top IN CNAME .
-*.smallshops.top IN CNAME .
-
 ; --- Russian Bulletproof TDS & C2 Forums ---
-semyanich-forum-11.work IN CNAME .
-*.semyanich-forum-11.work IN CNAME .
-
-semyanich-forum-17.work IN CNAME .
-*.semyanich-forum-17.work IN CNAME .
-
-semyanich-forum-18.work IN CNAME .
-*.semyanich-forum-18.work IN CNAME .
-
-semyanich-forum-28.work IN CNAME .
-*.semyanich-forum-28.work IN CNAME .
-
-semyanich-forum-33.work IN CNAME .
-*.semyanich-forum-33.work IN CNAME .
-
-memoriahistorica.cc IN CNAME .
-*.memoriahistorica.cc IN CNAME .
-
 ; ==============================================================================
 ; 6. CNAME CLOAKING, FAST-FLUX C2 MASKING E DNS TUNNELING BASE32/HEX
 ; ==============================================================================
@@ -479,9 +326,6 @@ foggymorningmist.com IN CNAME .
 
 emptyfieldgrassm.com IN CNAME .
 *.emptyfieldgrassm.com IN CNAME .
-
-uo4g.com IN CNAME .
-*.uo4g.com IN CNAME .
 
 ; --- Fast-Flux C2 & Trolling Masking Domains (Pool de Proxies Internacionais) ---
 dnsrecordsarepowerful.com IN CNAME .
@@ -539,14 +383,31 @@ mail.cope.st IN CNAME .
 smtp.cope.st IN CNAME .
 
 ; --- Phantom C2 Botnet & Universal OTA TV Box Backdoor ---
-phantomc2.cc IN CNAME .
-*.phantomc2.cc IN CNAME .
-
 uota.xyz IN CNAME .
 *.uota.xyz IN CNAME .
 
 ; --- C2 & Trojan Loaders (Subrede 100.99.0.x) ---
 sda-1.xyz IN CNAME .
 *.sda-1.xyz IN CNAME .
+; ==============================================================================
+; 8. NOVAS AMEAÇAS IDENTIFICADAS ZEEK / CLICKHOUSE (18/10/2026)
+; ==============================================================================
 
+; --- Android TV Box Firmware Backdoor / Loader Beaconing (16k+ reqs, 28 clientes) ---
+al-array.com IN CNAME .
+*.al-array.com IN CNAME .
 
+; --- Proxyware & Residential Bandwidth Monetization SDK ---
+packetsdk.xyz IN CNAME .
+*.packetsdk.xyz IN CNAME .
+
+; --- C2 & Malicious Infrastructure ---
+bainsx.cn IN CNAME .
+*.bainsx.cn IN CNAME .
+
+adbeat.xyz IN CNAME .
+*.adbeat.xyz IN CNAME .
+
+; --- DNS Tunneling TXT Query ---
+asdxwqw.com IN CNAME .
+*.asdxwqw.com IN CNAME .
