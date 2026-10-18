@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026101801 ; Serial atualizado (AAAAMMDDNN)
+    2026101802 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -411,3 +411,6 @@ adbeat.xyz IN CNAME .
 ; --- DNS Tunneling TXT Query ---
 asdxwqw.com IN CNAME .
 *.asdxwqw.com IN CNAME .
+; --- Typosquatting / Malicious Fake Google ---
+goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com IN CNAME .
+*.goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com IN CNAME .
