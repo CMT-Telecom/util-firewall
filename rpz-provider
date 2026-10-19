@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026101901 ; Serial atualizado (AAAAMMDDNN)
+    2026101902 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -443,3 +443,51 @@ usamarket.fo IN CNAME .
 
 vshield.pro IN CNAME .
 *.vshield.pro IN CNAME .
+
+; ==============================================================================
+; 10. CLUSTER BOTNET DDOS LAYER 7, C2 & PROXYWARE (INVESTIGAÇÃO REDE TPN 19/10/2026)
+; ==============================================================================
+
+; --- Cluster C2 Coordenado Layer 7 (Flood HTTP/POST em Múltiplos Clientes) ---
+oceanvw.click IN CNAME .
+*.oceanvw.click IN CNAME .
+
+apedlow.help IN CNAME .
+*.apedlow.help IN CNAME .
+
+zxdaone.click IN CNAME .
+*.zxdaone.click IN CNAME .
+
+zonxh.shop IN CNAME .
+*.zonxh.shop IN CNAME .
+
+autriep.click IN CNAME .
+*.autriep.click IN CNAME .
+
+trenpeak.click IN CNAME .
+*.trenpeak.click IN CNAME .
+
+teculse.click IN CNAME .
+*.teculse.click IN CNAME .
+
+phetsre.shop IN CNAME .
+*.phetsre.shop IN CNAME .
+
+th8h.store IN CNAME .
+*.th8h.store IN CNAME .
+
+; --- Botnet C2, IoT Backdoors e Proxyware ---
+mef4bot7r2gw3avod.top IN CNAME .
+*.mef4bot7r2gw3avod.top IN CNAME .
+
+dayunlinks.cn IN CNAME .
+*.dayunlinks.cn IN CNAME .
+
+bsclink.cn IN CNAME .
+*.bsclink.cn IN CNAME .
+
+b44aowyno.xyz IN CNAME .
+*.b44aowyno.xyz IN CNAME .
+
+packetstream-sdk.su IN CNAME .
+*.packetstream-sdk.su IN CNAME .
