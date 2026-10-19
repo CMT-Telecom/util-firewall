@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026101802 ; Serial atualizado (AAAAMMDDNN)
+    2026101901 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -414,3 +414,32 @@ asdxwqw.com IN CNAME .
 ; --- Typosquatting / Malicious Fake Google ---
 goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com IN CNAME .
 *.goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com IN CNAME .
+
+; ==============================================================================
+; 9. DDOS BOOTERS, STRESSERS, LAYER 7 C2 & MALWARE LOADERS (19/10/2026)
+; ==============================================================================
+
+; --- DDoS Booters & Layer 7 Stresser C2 (Forense Zeek / ClickHouse) ---
+dstatbot.win IN CNAME .
+*.dstatbot.win IN CNAME .
+
+wormgpt.win IN CNAME .
+*.wormgpt.win IN CNAME .
+
+countbot.lol IN CNAME .
+*.countbot.lol IN CNAME .
+
+verbida.click IN CNAME .
+*.verbida.click IN CNAME .
+
+pwxfnpqssfyn.store IN CNAME .
+*.pwxfnpqssfyn.store IN CNAME .
+
+pywbovclsckq.site IN CNAME .
+*.pywbovclsckq.site IN CNAME .
+
+usamarket.fo IN CNAME .
+*.usamarket.fo IN CNAME .
+
+vshield.pro IN CNAME .
+*.vshield.pro IN CNAME .
