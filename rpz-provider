@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026101902 ; Serial atualizado (AAAAMMDDNN)
+    2026102301 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -491,3 +491,352 @@ b44aowyno.xyz IN CNAME .
 
 packetstream-sdk.su IN CNAME .
 *.packetstream-sdk.su IN CNAME .
+
+; ==============================================================================
+; 11. CLASSIFICACAO TELEMETRIA ZEEK UVO (23/10/2026)
+; ==============================================================================
+
+; --- Botnet C2 & DNS Tunneling ---
+biohazard.st IN CNAME .
+*.biohazard.st IN CNAME .
+
+phantomc2.cc IN CNAME .
+*.phantomc2.cc IN CNAME .
+
+wagwan.st IN CNAME .
+*.wagwan.st IN CNAME .
+
+witchweek.st IN CNAME .
+*.witchweek.st IN CNAME .
+
+; --- Proxyware & Compartilhamento Clandestino de Banda ---
+byteconnect.io IN CNAME .
+*.byteconnect.io IN CNAME .
+
+duskproxies.xyz IN CNAME .
+*.duskproxies.xyz IN CNAME .
+
+proxystream.st IN CNAME .
+*.proxystream.st IN CNAME .
+
+; --- TV Box Pirata, Launchers e IPTV Nao Autorizado ---
+adbeat.club IN CNAME .
+*.adbeat.club IN CNAME .
+
+bn888888.com IN CNAME .
+*.bn888888.com IN CNAME .
+
+cloud-links.net IN CNAME .
+*.cloud-links.net IN CNAME .
+
+devspts.site IN CNAME .
+*.devspts.site IN CNAME .
+
+engetapps.online IN CNAME .
+*.engetapps.online IN CNAME .
+
+enlauncher.online IN CNAME .
+*.enlauncher.online IN CNAME .
+
+fuximain.com IN CNAME .
+*.fuximain.com IN CNAME .
+
+jaguartv.site IN CNAME .
+*.jaguartv.site IN CNAME .
+
+likework.site IN CNAME .
+*.likework.site IN CNAME .
+
+misterlauncher.org IN CNAME .
+*.misterlauncher.org IN CNAME .
+
+tiktoptv.top IN CNAME .
+*.tiktoptv.top IN CNAME .
+
+toptvpad.com IN CNAME .
+*.toptvpad.com IN CNAME .
+
+tvbrasil.live IN CNAME .
+*.tvbrasil.live IN CNAME .
+
+tvsetting.com IN CNAME .
+*.tvsetting.com IN CNAME .
+
+uota.club IN CNAME .
+*.uota.club IN CNAME .
+
+uvlauncher.com IN CNAME .
+*.uvlauncher.com IN CNAME .
+
+uvlauncher.net IN CNAME .
+*.uvlauncher.net IN CNAME .
+
+; --- IoT Exploits, Mirai & DDoS Botnets ---
+1web922009.top IN CNAME .
+*.1web922009.top IN CNAME .
+
+2web922009.top IN CNAME .
+*.2web922009.top IN CNAME .
+
+3web922009.top IN CNAME .
+*.3web922009.top IN CNAME .
+
+5gf7jtfk0y.st IN CNAME .
+*.5gf7jtfk0y.st IN CNAME .
+
+7we8hnfgj.xyz IN CNAME .
+*.7we8hnfgj.xyz IN CNAME .
+
+bdgrgd346.xyz IN CNAME .
+*.bdgrgd346.xyz IN CNAME .
+
+blockdh100b.net IN CNAME .
+*.blockdh100b.net IN CNAME .
+
+blockdh100c.co IN CNAME .
+*.blockdh100c.co IN CNAME .
+
+bsa12d1s7.online IN CNAME .
+*.bsa12d1s7.online IN CNAME .
+
+hikvision-cctv.su IN CNAME .
+*.hikvision-cctv.su IN CNAME .
+
+kinotik13.xyz IN CNAME .
+*.kinotik13.xyz IN CNAME .
+
+kisalink5.xyz IN CNAME .
+*.kisalink5.xyz IN CNAME .
+
+lifeisabouthavingfun448.duckdns.org IN CNAME .
+*.lifeisabouthavingfun448.duckdns.org IN CNAME .
+
+lkjhgbss818458.top IN CNAME .
+*.lkjhgbss818458.top IN CNAME .
+
+mglkuhjn.xyz IN CNAME .
+*.mglkuhjn.xyz IN CNAME .
+
+muddl4h0.xyz IN CNAME .
+*.muddl4h0.xyz IN CNAME .
+
+nvms9000.su IN CNAME .
+*.nvms9000.su IN CNAME .
+
+qqueenbella.duckdns.org IN CNAME .
+*.qqueenbella.duckdns.org IN CNAME .
+
+swwoittlv.cc IN CNAME .
+*.swwoittlv.cc IN CNAME .
+
+tiananmensquare1989.su IN CNAME .
+*.tiananmensquare1989.su IN CNAME .
+
+wabbalabba.org IN CNAME .
+*.wabbalabba.org IN CNAME .
+
+; --- DGA Botnet .com (Familia Ativa em CGNAT) ---
+1gkh3h89c.com IN CNAME .
+*.1gkh3h89c.com IN CNAME .
+
+3tsmjlcikv.com IN CNAME .
+*.3tsmjlcikv.com IN CNAME .
+
+44fggv7f.com IN CNAME .
+*.44fggv7f.com IN CNAME .
+
+455u5g8pi6.com IN CNAME .
+*.455u5g8pi6.com IN CNAME .
+
+667770ldaz1.com IN CNAME .
+*.667770ldaz1.com IN CNAME .
+
+68m2yk079ez.com IN CNAME .
+*.68m2yk079ez.com IN CNAME .
+
+756d1gvds.com IN CNAME .
+*.756d1gvds.com IN CNAME .
+
+75vffvd4c.com IN CNAME .
+*.75vffvd4c.com IN CNAME .
+
+90lzgegdn.com IN CNAME .
+*.90lzgegdn.com IN CNAME .
+
+96fg8hdfdb.com IN CNAME .
+*.96fg8hdfdb.com IN CNAME .
+
+aswjruzyd.com IN CNAME .
+*.aswjruzyd.com IN CNAME .
+
+b2g3vwc8c.com IN CNAME .
+*.b2g3vwc8c.com IN CNAME .
+
+b45vf23v3c.com IN CNAME .
+*.b45vf23v3c.com IN CNAME .
+
+b5hyb6fdc.com IN CNAME .
+*.b5hyb6fdc.com IN CNAME .
+
+ba08wv7zy0.com IN CNAME .
+*.ba08wv7zy0.com IN CNAME .
+
+bcf234v2.com IN CNAME .
+*.bcf234v2.com IN CNAME .
+
+bqnmxkyse.com IN CNAME .
+*.bqnmxkyse.com IN CNAME .
+
+bv6fufop.com IN CNAME .
+*.bv6fufop.com IN CNAME .
+
+cmrgpsqvw.com IN CNAME .
+*.cmrgpsqvw.com IN CNAME .
+
+d4ybfcv4c.com IN CNAME .
+*.d4ybfcv4c.com IN CNAME .
+
+dejlbnvpf.com IN CNAME .
+*.dejlbnvpf.com IN CNAME .
+
+elcgrbkwy.com IN CNAME .
+*.elcgrbkwy.com IN CNAME .
+
+ewzjovkpn.com IN CNAME .
+*.ewzjovkpn.com IN CNAME .
+
+f3k4gcv4e.com IN CNAME .
+*.f3k4gcv4e.com IN CNAME .
+
+frcsgfmqnny.com IN CNAME .
+*.frcsgfmqnny.com IN CNAME .
+
+frfvdp4e8.com IN CNAME .
+*.frfvdp4e8.com IN CNAME .
+
+ftr76959w8.com IN CNAME .
+*.ftr76959w8.com IN CNAME .
+
+gh8hfkofye.com IN CNAME .
+*.gh8hfkofye.com IN CNAME .
+
+ghfw6j2k6g.com IN CNAME .
+*.ghfw6j2k6g.com IN CNAME .
+
+ghvf3r1c2.com IN CNAME .
+*.ghvf3r1c2.com IN CNAME .
+
+gnzkfqmux.com IN CNAME .
+*.gnzkfqmux.com IN CNAME .
+
+gokcwvzdm.com IN CNAME .
+*.gokcwvzdm.com IN CNAME .
+
+gr865lhdo.com IN CNAME .
+*.gr865lhdo.com IN CNAME .
+
+gviudclrb.com IN CNAME .
+*.gviudclrb.com IN CNAME .
+
+gwqdiljec.com IN CNAME .
+*.gwqdiljec.com IN CNAME .
+
+gywrcfxmd.com IN CNAME .
+*.gywrcfxmd.com IN CNAME .
+
+hc40gh7gc.com IN CNAME .
+*.hc40gh7gc.com IN CNAME .
+
+icpsuawn1zy5amys.com IN CNAME .
+*.icpsuawn1zy5amys.com IN CNAME .
+
+iweq1ddc.com IN CNAME .
+*.iweq1ddc.com IN CNAME .
+
+iydntrpvb.com IN CNAME .
+*.iydntrpvb.com IN CNAME .
+
+j0rl57s5.com IN CNAME .
+*.j0rl57s5.com IN CNAME .
+
+jjofd16dhf.com IN CNAME .
+*.jjofd16dhf.com IN CNAME .
+
+jlilyt9lzw.com IN CNAME .
+*.jlilyt9lzw.com IN CNAME .
+
+k3xjbiiw2.com IN CNAME .
+*.k3xjbiiw2.com IN CNAME .
+
+kbprycjim.com IN CNAME .
+*.kbprycjim.com IN CNAME .
+
+klodn1hhr.com IN CNAME .
+*.klodn1hhr.com IN CNAME .
+
+ldpskeotj.com IN CNAME .
+*.ldpskeotj.com IN CNAME .
+
+lekpvtpwj.com IN CNAME .
+*.lekpvtpwj.com IN CNAME .
+
+lkg1fl1pt.com IN CNAME .
+*.lkg1fl1pt.com IN CNAME .
+
+lkhj2aqwcz.com IN CNAME .
+*.lkhj2aqwcz.com IN CNAME .
+
+mu7f534ce.com IN CNAME .
+*.mu7f534ce.com IN CNAME .
+
+nshezqwuj.com IN CNAME .
+*.nshezqwuj.com IN CNAME .
+
+o7fgvnngb.com IN CNAME .
+*.o7fgvnngb.com IN CNAME .
+
+ojlsymdbk.com IN CNAME .
+*.ojlsymdbk.com IN CNAME .
+
+onhpdywvg.com IN CNAME .
+*.onhpdywvg.com IN CNAME .
+
+or8m4puy2o.com IN CNAME .
+*.or8m4puy2o.com IN CNAME .
+
+ozwaxckbt.com IN CNAME .
+*.ozwaxckbt.com IN CNAME .
+
+pdzagrsme.com IN CNAME .
+*.pdzagrsme.com IN CNAME .
+
+r9mri9j25k.com IN CNAME .
+*.r9mri9j25k.com IN CNAME .
+
+rcnwslzgu.com IN CNAME .
+*.rcnwslzgu.com IN CNAME .
+
+vysofkard.com IN CNAME .
+*.vysofkard.com IN CNAME .
+
+w15vmwuw.com IN CNAME .
+*.w15vmwuw.com IN CNAME .
+
+wdrixjezn.com IN CNAME .
+*.wdrixjezn.com IN CNAME .
+
+wmztc4vzx.com IN CNAME .
+*.wmztc4vzx.com IN CNAME .
+
+wstaezkyf.com IN CNAME .
+*.wstaezkyf.com IN CNAME .
+
+xqlsmbvne.com IN CNAME .
+*.xqlsmbvne.com IN CNAME .
+
+xrgzdsufk.com IN CNAME .
+*.xrgzdsufk.com IN CNAME .
+
+yjdxzksqp.com IN CNAME .
+*.yjdxzksqp.com IN CNAME .
+
