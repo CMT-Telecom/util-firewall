@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026102301 ; Serial atualizado (AAAAMMDDNN)
+    2026103003 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -839,4 +839,278 @@ xrgzdsufk.com IN CNAME .
 
 yjdxzksqp.com IN CNAME .
 *.yjdxzksqp.com IN CNAME .
+
+; ==============================================================================
+; 11. NOVOS INDICADORES DE C2, MINERAÇÃO E BOTNETS (FORENSE DPI 27/10/2026)
+; ==============================================================================
+
+; Cryptominer Monero C2 (XMRigCC)
+audioupdate.com.br IN CNAME .
+*.audioupdate.com.br IN CNAME .
+
+; IoT / Xiongmai Camera & DVR C2 Reconnaissance
+camdvr.org IN CNAME .
+*.camdvr.org IN CNAME .
+
+; Layer 7 DDoS Booter / Stresser Target
+cocovoip.xyz IN CNAME .
+*.cocovoip.xyz IN CNAME .
+
+; Android TV Box Badbox / DoH C2 & Backdoor
+bcytua.cc IN CNAME .
+*.bcytua.cc IN CNAME .
+
+grento.cc IN CNAME .
+*.grento.cc IN CNAME .
+
+dtdcloud.com IN CNAME .
+*.dtdcloud.com IN CNAME .
+
+oranthservice.site IN CNAME .
+*.oranthservice.site IN CNAME .
+
+; Malware Dropper / Staging Domain
+zunlegit.vip IN CNAME .
+*.zunlegit.vip IN CNAME .
+
+; DGA Botnets & C2 Backdoors
+odwjgdsga.click IN CNAME .
+*.odwjgdsga.click IN CNAME .
+
+cloud-control.top IN CNAME .
+*.cloud-control.top IN CNAME .
+
+anuytzc.xyz IN CNAME .
+*.anuytzc.xyz IN CNAME .
+
+bn888888.com IN CNAME .
+*.bn888888.com IN CNAME .
+
+; Blockchain / RPC Abuse Target
+ethereum-rpc.publicnode.com IN CNAME .
+*.ethereum-rpc.publicnode.com IN CNAME .
+
+discovery.meethue.com IN CNAME .
+*.discovery.meethue.com IN CNAME .
+
+; ==============================================================================
+; 12. NOVOS INDICADORES DE C2, TV BOX BOTNETS E PROXYWARE (FORENSE ZEEK 30/10/2026)
+; ==============================================================================
+
+; Vo1d / Mzmessenger & TV Box C2 (/armeabi-v7a/libalex.so & /terminal/client/register)
+alextyler.st IN CNAME .
+*.alextyler.st IN CNAME .
+
+ycxrl.com IN CNAME .
+*.ycxrl.com IN CNAME .
+
+cbphe.com IN CNAME .
+*.cbphe.com IN CNAME .
+
+apotube.com IN CNAME .
+*.apotube.com IN CNAME .
+
+goologer.com IN CNAME .
+*.goologer.com IN CNAME .
+
+sdteen.com IN CNAME .
+*.sdteen.com IN CNAME .
+
+syloger.com IN CNAME .
+*.syloger.com IN CNAME .
+
+dcylog.com IN CNAME .
+*.dcylog.com IN CNAME .
+
+yydsmr.com IN CNAME .
+*.yydsmr.com IN CNAME .
+
+; Badbox / Peachpit TV Box C2 Cluster (/apiv2/<hex>)
+dejaiolish3.xyz IN CNAME .
+*.dejaiolish3.xyz IN CNAME .
+
+dedasdev1.xyz IN CNAME .
+*.dedasdev1.xyz IN CNAME .
+
+dswdfafed2.xyz IN CNAME .
+*.dswdfafed2.xyz IN CNAME .
+
+xmsae.sbs IN CNAME .
+*.xmsae.sbs IN CNAME .
+
+xshaon123.sbs IN CNAME .
+*.xshaon123.sbs IN CNAME .
+
+ishano456.sbs IN CNAME .
+*.ishano456.sbs IN CNAME .
+
+fuisans1.online IN CNAME .
+*.fuisans1.online IN CNAME .
+
+fshuaons2.online IN CNAME .
+*.fshuaons2.online IN CNAME .
+
+fuioahsdoa3.store IN CNAME .
+*.fuioahsdoa3.store IN CNAME .
+
+; DNS TXT Tunneling, DGA & CloudFront C2s
+ndses87bqybxaa4pkyesafavhu3richedn9wwdbuy2bknagzmx.st IN CNAME .
+*.ndses87bqybxaa4pkyesafavhu3richedn9wwdbuy2bknagzmx.st IN CNAME .
+
+gdwt42d1.click IN CNAME .
+*.gdwt42d1.click IN CNAME .
+
+yykdhslh.click IN CNAME .
+*.yykdhslh.click IN CNAME .
+
+drevvon.click IN CNAME .
+*.drevvon.click IN CNAME .
+
+pvxjfn3zjmv7wr867v.eu.cc IN CNAME .
+*.pvxjfn3zjmv7wr867v.eu.cc IN CNAME .
+
+zetsource.su IN CNAME .
+*.zetsource.su IN CNAME .
+
+ryanurharmless.buzz IN CNAME .
+*.ryanurharmless.buzz IN CNAME .
+
+jorx.buzz IN CNAME .
+*.jorx.buzz IN CNAME .
+
+verticalrack.shop IN CNAME .
+*.verticalrack.shop IN CNAME .
+
+verticalrack.net IN CNAME .
+*.verticalrack.net IN CNAME .
+
+22t8zyluzwaa.shop IN CNAME .
+*.22t8zyluzwaa.shop IN CNAME .
+
+x17grorfjwiytre2d.info IN CNAME .
+*.x17grorfjwiytre2d.info IN CNAME .
+
+; TLS C2 Port 8607 & Android Stalkerware / Backdoor OTA
+pareci.net IN CNAME .
+*.pareci.net IN CNAME .
+
+fingerhi.net IN CNAME .
+*.fingerhi.net IN CNAME .
+
+31gamestudio.com IN CNAME .
+*.31gamestudio.com IN CNAME .
+
+donlgx.net IN CNAME .
+*.donlgx.net IN CNAME .
+
+togothermany.com IN CNAME .
+*.togothermany.com IN CNAME .
+
+monitorar.top IN CNAME .
+*.monitorar.top IN CNAME .
+
+akrdinfo.cn IN CNAME .
+*.akrdinfo.cn IN CNAME .
+
+dnsyc.top IN CNAME .
+*.dnsyc.top IN CNAME .
+
+imptor.top IN CNAME .
+*.imptor.top IN CNAME .
+
+shzhtxcz.com IN CNAME .
+*.shzhtxcz.com IN CNAME .
+
+appcpi.net IN CNAME .
+*.appcpi.net IN CNAME .
+
+rja3.xyz IN CNAME .
+*.rja3.xyz IN CNAME .
+
+tx-logtrace.net IN CNAME .
+*.tx-logtrace.net IN CNAME .
+
+; Proxyware / Residential Proxy SDK & Adfraud C2
+packetsdk.net IN CNAME .
+*.packetsdk.net IN CNAME .
+
+packetsdk.io IN CNAME .
+*.packetsdk.io IN CNAME .
+
+hexsdk.com IN CNAME .
+*.hexsdk.com IN CNAME .
+
+pawns.app IN CNAME .
+*.pawns.app IN CNAME .
+
+phonemesh.org IN CNAME .
+*.phonemesh.org IN CNAME .
+
+phonegrid.org IN CNAME .
+*.phonegrid.org IN CNAME .
+
+peercon.org IN CNAME .
+*.peercon.org IN CNAME .
+
+linkmob.org IN CNAME .
+*.linkmob.org IN CNAME .
+
+gmslb.net IN CNAME .
+*.gmslb.net IN CNAME .
+
+lbk-sol.com IN CNAME .
+*.lbk-sol.com IN CNAME .
+
+sklstech.com IN CNAME .
+*.sklstech.com IN CNAME .
+
+kyc-holdings.com IN CNAME .
+*.kyc-holdings.com IN CNAME .
+
+martianinc.co IN CNAME .
+*.martianinc.co IN CNAME .
+
+holadns.com IN CNAME .
+*.holadns.com IN CNAME .
+
+okamiboss.com IN CNAME .
+*.okamiboss.com IN CNAME .
+
+dc16888888.com IN CNAME .
+*.dc16888888.com IN CNAME .
+
+100ulife.com IN CNAME .
+*.100ulife.com IN CNAME .
+
+ziyemy.shop IN CNAME .
+*.ziyemy.shop IN CNAME .
+
+mymoyu.shop IN CNAME .
+*.mymoyu.shop IN CNAME .
+
+moyu88.xyz IN CNAME .
+*.moyu88.xyz IN CNAME .
+
+appclicking.com IN CNAME .
+*.appclicking.com IN CNAME .
+
+xl-ads.com IN CNAME .
+*.xl-ads.com IN CNAME .
+
+adstool.xyz IN CNAME .
+*.adstool.xyz IN CNAME .
+
+navnow.xyz IN CNAME .
+*.navnow.xyz IN CNAME .
+
+sysbinder.xyz IN CNAME .
+*.sysbinder.xyz IN CNAME .
+
+; Botnet DGA TLS C2 (porta 10443 -> 112.121.178.213) & Trojan DDNS C2 (23.237.162.162)
+1g5k5w.com IN CNAME .
+*.1g5k5w.com IN CNAME .
+
+trmrss28.theworkpc.com IN CNAME .
+*.trmrss28.theworkpc.com IN CNAME .
+
 
