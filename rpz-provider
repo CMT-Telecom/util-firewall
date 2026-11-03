@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026103003 ; Serial atualizado (AAAAMMDDNN)
+    2026110301 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -252,9 +252,6 @@ nodeflix.net IN CNAME .
 
 comonxp.com IN CNAME .
 *.comonxp.com IN CNAME .
-
-secu100.net IN CNAME .
-*.secu100.net IN CNAME .
 
 cloudbirds.cn IN CNAME .
 *.cloudbirds.cn IN CNAME .
@@ -848,10 +845,6 @@ yjdxzksqp.com IN CNAME .
 audioupdate.com.br IN CNAME .
 *.audioupdate.com.br IN CNAME .
 
-; IoT / Xiongmai Camera & DVR C2 Reconnaissance
-camdvr.org IN CNAME .
-*.camdvr.org IN CNAME .
-
 ; Layer 7 DDoS Booter / Stresser Target
 cocovoip.xyz IN CNAME .
 *.cocovoip.xyz IN CNAME .
@@ -1112,5 +1105,28 @@ sysbinder.xyz IN CNAME .
 
 trmrss28.theworkpc.com IN CNAME .
 *.trmrss28.theworkpc.com IN CNAME .
+
+; ==============================================================================
+; 13. VOTO DE CONFIANÇA / PERMITIDOS CONDICIONAIS (CÂMERAS IOT, APPS RESIDENCIAIS)
+; ==============================================================================
+; Estes domínios foram temporariamente liberados para viabilizar serviços
+; legítimos dos clientes (ex: câmeras Wi-Fi Yoosee, ICSee, VStarcam).
+; Mantidos comentados aqui com seu registro histórico para pronta reativação
+; caso apresentem abuso ou vetor de ataque/C2 ativo.
+
+; Yoosee / Gwelltimes Cloud (usado para streaming P2P e pareamento das câmeras Yoosee/ICSee dos assinantes)
+; Liberado em 03/11/2026 após chamados de indisponibilidade nos IPs 100.99.0.251 e 100.99.0.90
+; secu100.net IN CNAME .
+; *.secu100.net IN CNAME .
+
+; Xiongmai / ICSee Cloud & DDNS (usado por firmwares Xiongmai de CFTV residencial)
+; camdvr.org IN CNAME .
+; *.camdvr.org IN CNAME .
+
+; VStarcam / Eye4 Cloud API (telemetria e acesso móvel de câmeras Eye4)
+; api.eye4.cn IN CNAME .
+; *.api.eye4.cn IN CNAME .
+
+
 
 
