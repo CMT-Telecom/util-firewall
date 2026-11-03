@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026110301 ; Serial atualizado (AAAAMMDDNN)
+    2026110302 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -1126,6 +1126,85 @@ trmrss28.theworkpc.com IN CNAME .
 ; VStarcam / Eye4 Cloud API (telemetria e acesso móvel de câmeras Eye4)
 ; api.eye4.cn IN CNAME .
 ; *.api.eye4.cn IN CNAME .
+
+; ==============================================================================
+; 14. NOVOS C2s, AD-FRAUD SDK & BADBOX TV (POOL 100.99 IDENTIFICADOS EM 03/11)
+; ==============================================================================
+
+; Ad-Fraud / Click-Fraud & Fake Market Data Cluster (Zumbis .8, .109, .203, .81)
+pricingtrail.com IN CNAME .
+*.pricingtrail.com IN CNAME .
+
+publicrecordsapi.com IN CNAME .
+*.publicrecordsapi.com IN CNAME .
+
+gridmarketdata.com IN CNAME .
+*.gridmarketdata.com IN CNAME .
+
+synergysis.com IN CNAME .
+*.synergysis.com IN CNAME .
+
+ipcheckerapi.com IN CNAME .
+*.ipcheckerapi.com IN CNAME .
+
+clinicaltrialrecruiting.com IN CNAME .
+*.clinicaltrialrecruiting.com IN CNAME .
+
+; MythAd Ad-Fraud / Mobile Botnet SDK (Dezenas de hosts na pool 100.99)
+mythad.com IN CNAME .
+*.mythad.com IN CNAME .
+
+; C2 DGA & Trojan Droppers
+stalzone.com IN CNAME .
+*.stalzone.com IN CNAME .
+
+namsmoker.cfd IN CNAME .
+*.namsmoker.cfd IN CNAME .
+
+xgeorgia.gd IN CNAME .
+*.xgeorgia.gd IN CNAME .
+
+scutumnet.com IN CNAME .
+*.scutumnet.com IN CNAME .
+
+o5g.pw IN CNAME .
+*.o5g.pw IN CNAME .
+
+; DGA Pattern Cluster (família a-b-c-8 / f-1-g-h)
+i-j-2-k.com IN CNAME .
+*.i-j-2-k.com IN CNAME .
+
+; Badbox TV Box, Pirate IPTV & Adware Telemetry
+mgsvp.com IN CNAME .
+*.mgsvp.com IN CNAME .
+
+ap4r.com IN CNAME .
+*.ap4r.com IN CNAME .
+
+100.app IN CNAME .
+*.100.app IN CNAME .
+
+tq-tungsten.com IN CNAME .
+*.tq-tungsten.com IN CNAME .
+
+zeasn.tv IN CNAME .
+*.zeasn.tv IN CNAME .
+
+longott.com IN CNAME .
+*.longott.com IN CNAME .
+
+rainberrytv.com IN CNAME .
+*.rainberrytv.com IN CNAME .
+
+wiselg.com IN CNAME .
+*.wiselg.com IN CNAME .
+
+; Rogue Android APKs / Fake Antivirus & Cleaners
+apexcleanpro.com IN CNAME .
+*.apexcleanpro.com IN CNAME .
+
+antivirusflux.com IN CNAME .
+*.antivirusflux.com IN CNAME .
 
 
 
