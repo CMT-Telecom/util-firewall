@@ -1,6 +1,6 @@
 $TTL 2h
 @ IN SOA localhost. root.localhost. (
-    2026110302 ; Serial atualizado (AAAAMMDDNN)
+    2026110701 ; Serial atualizado (AAAAMMDDNN)
     2h         ; Refresh
     15m        ; Retry
     30d        ; Expire
@@ -1205,6 +1205,13 @@ apexcleanpro.com IN CNAME .
 
 antivirusflux.com IN CNAME .
 *.antivirusflux.com IN CNAME .
+
+; Android TV Box C2 / BADBOX Botnet (Amediatech OTA)
+amediatech.net IN CNAME .
+*.amediatech.net IN CNAME .
+amediatech.cn IN CNAME .
+*.amediatech.cn IN CNAME .
+
 
 
 
